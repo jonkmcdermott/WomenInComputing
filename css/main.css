@@ -122,6 +122,20 @@ button.bio_card {
     padding-right: 1em;
 }
 
+/* change agenda nav styling */
+.agenda-tab {
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00467f;
+}
+
+/* change agenda image styling for carousel bgs */
+.agenda-img {
+    width: 100%;
+    padding: .5em 3em 1em;
+}
+
 
 /* change footer color */
 footer {
