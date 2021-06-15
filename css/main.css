@@ -131,11 +131,19 @@ button.bio_card {
 }
 
 /* change agenda image styling for carousel bgs */
-.agenda-img {
-    width: 100%;
+.carousel-item {
+    background-image: linear-gradient(#011d41, #00467f);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: .5em 3em 1em;
 }
-
+/* change agenda image styling for carousel bgs */
+.agenda-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /* change footer color */
 footer {
