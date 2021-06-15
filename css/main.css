@@ -137,12 +137,14 @@ button.bio_card {
     background-repeat: no-repeat;
     background-position: center;
     padding: .5em 3em 1em;
+    height: 15rem;
+    
 }
 /* change agenda image styling for carousel bgs */
 .agenda-img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 100%;
+    max-height: auto;
+    margin-top: auto;
 }
 
 /* change footer color */
