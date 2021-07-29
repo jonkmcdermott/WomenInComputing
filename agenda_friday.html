@@ -1,0 +1,356 @@
+<!-- Kentucky Community Colleges Women in Computing site - kyccwic.org -->
+<!-- Jon McDermott, 2021 -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Social Media Icon Integration-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Internal CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/ico" href="favicon.ico">
+        <title>Women In Computing</title>
+    </head>
+    <body id='mainPage' data-spy='scroll' data-target='.navbar' data-offset='10'>
+
+        <!-- NAVBAR -->
+        <!-- About, Speakers, Event Committee, Register Now -->
+        <nav id="main_nav" class="navbar navbar-expand-lg sticky-top navbar-custom">
+        <!--nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top"-->
+            <a class="navbar-brand" href="/">
+                <img src="images/l-KYCC.png" width="30" height="30" alt="">
+                KYCCWIC
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Agenda TEST
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="agenda_overview.html">Overview</a>
+                          <a class="dropdown-item" href="agenda_thursday.html">Thursday</a>
+                          <a class="dropdown-item" href="agenda_friday.html">Friday</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Speakers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="keynote.html">Keynote</a>
+                          <a class="dropdown-item" href="breakout.html">Breakout Sessions</a>
+                          <a class="dropdown-item" href="employment.html">Employment Panel</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="committee.html">Event Committee</a>
+                    </li>
+                </ul>
+                <a id="nav_button" class="btn btn-warning" href="register.html" role="button">Register Now</a>
+            </div>
+        </nav><!-- End of navbar -->
+
+        <!-- Jumbotron KYCCWIC -->
+        <!--div id="top_jumbo" class="d-none d-md-block jumbotron text-center">
+          <div id="jumbo_fx">
+            <h1 id="jumbo_head" class="display-4">Kentucky Community Colleges Women in Computing</h1>
+            <h4>Embrace Change & Achieve Success</h4>
+            <p id="jumbo_lead" class="lead">Join us virtually for the <strong>2021 Women in Computing Celebration</strong></p>
+            <a class="btn btn-primary btn-lg" href="#register" role="button">Join us!</a>
+          </div>
+            
+        </div-->
+
+        <!-- Top bar reduced -->
+        <div class="d-none d-md-block top_display mb-3">
+            <h1>2021 ACM-W & KYCC</h1>
+            <h1 class="display-4">Celebration of Women In Computing</h1>
+            <h4>Embrace Change & Achieve Success</h4>
+        </div>
+        
+        <!-- Content container -->
+        <!-- Set grid for sidebars with content centered until breakpoint-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Left-most column -->
+                <div class="d-none d-lg-block col-lg-2 bg-light">
+                    <div class="pt1">
+                        <!-- Date info-->
+                        <h4>Meeting Date</h4>
+                        <h5>September 9-10, 2021</h5>
+                        <p>
+                            Virtual meeting sponsored by <a href="https://southcentral.kctcs.edu/" target="_blank"><strong>Southcentral Kentucky Community & Technical College</strong></a> with support
+                            from the <a href="https://women.acm.org/" target="_blank"><strong>Association for Computing Machinery</strong></a> as part of this year's 
+                            celebration of Women in Computing. This year's theme is <em>Embrace Change & Achieve Success</em>!
+                        </p>
+                        <p>
+                            Meeting will be held via Microsoft Teams. Follow the link to register now!
+                        </p>
+                        <p><a id="side_link" href="register.html">Get Registered</a></p>
+
+                        <hr>
+
+                        <!-- Contact info-->
+                        <h4>Event Contact</h4>
+                        <p><strong>Carmen Gaskins</strong></p>
+                        <p><a id="side_link" href="mailto:carmen.gaskins@kctcs.edu">Email</a></p>
+
+                        <hr>
+
+                    </div>
+                </div> <!-- End Left Column-->
+
+
+                <!-- Central column (main content)-->
+                <div id="center_column" class="col-lg-8">
+                    <!-- Agenda -->
+                    <!-- Agenda -->
+                    <h1 class="pb-2">Friday, September 10</h1>
+
+                    <!-- sub nav -->
+                    <ul class="nav nav-tabs" id="agendaTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link agenda-tab active" id="nine-tab" data-toggle="tab" href="#nineblock" role="tab" aria-controls="nineblock" aria-selected="true">9:00 A.M.</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link agenda-tab" id="ten-tab" data-toggle="tab" href="#tenblock" role="tab" aria-controls="tenblock" aria-selected="false">10:00 A.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="eleven-tab" data-toggle="tab" href="#elevenblock" role="tab" aria-controls="elevenblock" aria-selected="false">11:00 A.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="twelve-tab" data-toggle="tab" href="#twelveblock" role="tab" aria-controls="twelveblock" aria-selected="false">12:00 P.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="one-tab" data-toggle="tab" href="#oneblock" role="tab" aria-controls="oneblock" aria-selected="false">1:00 P.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="two-tab" data-toggle="tab" href="#twoblock" role="tab" aria-controls="twoblock" aria-selected="false">2:00 P.M.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link agenda-tab" id="three-tab" data-toggle="tab" href="#threeblock" role="tab" aria-controls="threeblock" aria-selected="false">3:00 P.M.</a>
+                        </li>
+                    </ul><!-- end of sub nav -->
+
+                    <br>
+
+                    <div class="tab-content">
+
+                        <!-- 9 TAB -->
+                        <!--div class="tab-pane active" id="overview" role="tabpanel" aria-labelledby="overview-tab"></div-->
+                        <div class="tab-pane active" id="nineblock" role="tabpanel" aria-labelledby="nine-tab">
+                            <h2>Welcome and Keynote Speaker</h2>
+                            <div class="card session-card" style="width: auto;">
+                                <img class="card-img-top" src="images/KYCC_WiC.PNG" alt="KYCCWIC Logo">
+                                <div class="card-body">
+                                  <h5 class="card-title">Chloe Gooden, M.A</h5>
+                                  <p class="card-text">Hear from instructor, advisor, author, speaker, relationship coach, consultant, and founder of Chloe M. Gooden Ministries, LLC, Chloe M. Gooden in the keynote event of the KYCCWIC celebration!</p>
+                                  <a href="#" class="btn btn-primary">Join on Teams</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 10 TAB -->
+                        <!--div class="tab-pane" id="thursday" role="tabpanel" aria-labelledby="thursday-tab"></div-->
+                        <div class="tab-pane" id="tenblock" role="tabpanel" aria-labelledby="ten-tab">
+                            <h2>10:00 a.m. Breakout Sessions</h2>
+
+                            <!-- Internet of Things Preparing the Future Technical Workforce -->
+                            <!--div class="card session-card" style="width: 20rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Internet of Things - Preparing the Future Technical Workforce</h5>
+                                  <p><em><strong>Dr. John Sands, Dr. Kristine Christensen, Chuck Bales</strong></em></p>
+                                  <p class="card-text">This session will share research findings from the Internet of Things Coordination Network at Moraine Valley Community College. The College has engaged business partners, federal agencies and academia in defining the role of the technical workforce. Members of this network represent manufacturers, integrators, healthcare environments, home automation and smart city applications. This session will share new research data used to define common work roles, student competencies and program outcomes that can be used in developing degreed programs, majors, certificates and courses to teach applications of IoT technologies. The session will also share new course content used to enable business applications of this emerging technology. The team has also developed multidisciplinary content that is available through the network.</p>
+                                  <a href="#" class="btn btn-primary">Join on Teams</a>
+                                </div>
+                            </div-->
+
+
+
+                            <!--TEST-->
+
+
+
+                            <div class="row">
+
+
+                                <div class="col-md-4">
+                                    <!-- Internet of Things Preparing the Future Technical Workforce -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Internet of Things - Preparing the Future Technical Workforce</h5>
+                                        <p><em><strong>Dr. John Sands, Dr. Kristine Christensen, Chuck Bales</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">This session will share research findings from the Internet of Things Coordination Network at Moraine Valley Community College. The College has engaged business partners, federal agencies and academia in defining the role of the technical workforce. Members of this network represent manufacturers, integrators, healthcare environments, home automation and smart city applications. This session will share new research data used to define common work roles, student competencies and program outcomes that can be used in developing degreed programs, majors, certificates and courses to teach applications of IoT technologies. The session will also share new course content used to enable business applications of this emerging technology. The team has also developed multidisciplinary content that is available through the network.</p>
+                                        <a href="#" class="btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-md-4">
+                                    <!-- Cyber Health -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Cyber Health</h5>
+                                        <p><em><strong>Art McFadden, Sarah Hayter, Margaret Hostetler</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">When we look at cyber safety, most people just think about their computer getting infected with a threat, when your cyber health is much more than that.  Would you go to your eye doctor if you thought you were having a heart attack?  No.  Just like your own health, there are several parts to your overall cyber health.  In this break out session we will discuss some of these components, and how they can positively or negatively affect you.  From your social media to the light switch in your home, all of these things can help you or hurt you.</p>
+                                        <a href="#" class="btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-md-4">
+                                    <!-- Internet of Things Preparing the Future Technical Workforce -->
+                                    <div class="card session-card" style="width: auto;">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Internet of Things - Preparing the Future Technical Workforce</h5>
+                                        <p><em><strong>Dr. John Sands, Dr. Kristine Christensen, Chuck Bales</strong></em></p>
+                                        <button type="button" class="collapsible">Learn more...</button>
+                                        <p class="card-text collapsible-content">This session will share research findings from the Internet of Things Coordination Network at Moraine Valley Community College. The College has engaged business partners, federal agencies and academia in defining the role of the technical workforce. Members of this network represent manufacturers, integrators, healthcare environments, home automation and smart city applications. This session will share new research data used to define common work roles, student competencies and program outcomes that can be used in developing degreed programs, majors, certificates and courses to teach applications of IoT technologies. The session will also share new course content used to enable business applications of this emerging technology. The team has also developed multidisciplinary content that is available through the network.</p>
+                                        <a href="#" class="btn btn-primary mt-2">Join on Teams</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            
+
+
+
+
+                            <script>
+                                var coll = document.getElementsByClassName("collapsible");
+                                var i;
+
+                                for (i = 0; i < coll.length; i++) {
+                                coll[i].addEventListener("click", function() {
+                                    this.classList.toggle("active-card");
+                                    var content = this.nextElementSibling;
+                                    if (content.style.display === "block") {
+                                    content.style.display = "none";
+                                    } else {
+                                    content.style.display = "block";
+                                    }
+                                });
+                                }
+                            </script>
+                            
+
+
+
+
+                            <!--END TEST-->
+
+                        </div>
+
+                        <!-- 11 TAB -->
+                        <div class="tab-pane" id="elevenblock" role="tabpanel" aria-labelledby="11-tab">
+                            <h2>11:00 a.m. Breakout Sessions</h2>
+                        </div>
+
+                        <!-- 12 TAB -->
+                        <div class="tab-pane" id="twelveblock" role="tabpanel" aria-labelledby="twelve-tab">
+                            <h2>Employment Panel Q & A</h2>
+                        </div>
+
+                        <!-- 1 TAB -->
+                        <div class="tab-pane" id="oneblock" role="tabpanel" aria-labelledby="one-tab">
+                            <h2>1:00 p.m. Breakout Sessions</h2>
+                        </div>
+
+                        <!-- 2 TAB -->
+                        <div class="tab-pane" id="twoblock" role="tabpanel" aria-labelledby="two-tab">
+                            <h2>2:00 p.m. Breakout Sessions</h2>
+                        </div>
+
+                        <!-- 3 TAB -->
+                        <div class="tab-pane" id="threeblock" role="tabpanel" aria-labelledby="three-tab">
+                            <h2>Closing and Door Prizes</h2>
+                        </div>
+
+                    </div>
+                    
+                    <!--Script for sub tabs-->
+                    <script>
+                    $(function () {
+                        $('#agendaTab li:last-child a').tab('show')
+                    })
+                    </script>
+
+
+                </div> <!-- End Middle Column-->
+
+
+
+                <!-- Right-most column -->
+                <div class="d-none d-lg-block col-lg-2 bg-light">
+                    <div class="pt-1">
+                        <h5>Visit Us on Social Media!</h5>
+
+                        <!-- Social media links-->
+                        <a href="https://www.facebook.com/profile.php?id=100066701753860" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/kycc_women_in_computing21/"  target="_blank" class="fa fa-instagram"></a>
+                        <a href="https://twitter.com/KyccIn"  target="_blank" class="fa fa-twitter"></a>
+                    </div>   
+
+                    <hr>
+
+                    <!-- Relevant links -->
+                    <a href="https://southcentral.kctcs.edu/" target="_blank"><img class="img-fluid img-rounded img-responsive" src="images/l-skyctc.jpg" alt="SKYCTC Logo"></a>
+                    <hr>
+
+                    <a href="https://women.acm.org/" target="_blank"><img class="img-fluid img-rounded img-responsive" src="images/l-acm_sm.png" alt="ACM-W Logo"></a>
+                    <hr>
+                </div> <!-- End Right Column-->
+
+            </div> <!-- End Row-->
+        </div> <!-- End Container-->
+
+
+        <!-- Footer-->
+        <footer class="container-fluid text-center text-light mt-3">
+            <!--a type="button" class="btn btn-light btn-sm mt-3" href="#mainPage">
+                to top
+            </a-->
+            <p class="m-0"><small>KYCC Women in Computing &copy; 2021</small></p>
+            <p class="m-0"><small>For further information, please contact Carmen Gaskins via email at <a href="mailto:carmen.gaskins@kctcs.edu">carmen.gaskins@kctcs.edu</a></small></p>
+            <p class="m-0"><small>Created with love by Southcentral Kentucky Community & Technical College alumnus Jon McDermott</small></p>
+            <p class="py-3">
+                Visit our social media pages for the latest event info:
+                <a href="https://www.facebook.com/profile.php?id=100066701753860"  target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/kycc_women_in_computing21/"  target="_blank" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/KyccIn"  target="_blank" class="fa fa-twitter"></a>
+            </p>
+        </footer><!-- End of Footer -->
+
+
+        <!-- Bootstrap JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Internal JS -->
+        <!--script src="js/smoothScrolling.js"></script-->
+    </body>
+</html>

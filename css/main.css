@@ -147,6 +147,14 @@ button.bio_card {
     margin-top: auto;
 }
 
+/* Create hover effect and expanding to session cards on agenda page */
+.session-card {
+    transition: box-shadow .3s;
+}
+.session-card:hover {
+    box-shadow: 0 0 10px rgba(33,33,33,.2);
+}
+
 /* change footer color */
 footer {
     background-color: #011d41;
@@ -259,3 +267,31 @@ footer .fa {
     margin: 3px 1px;
     background: transparent;
 }
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: .5rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active-card, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .collapsible-content {
+    padding: .5rem 1rem;
+    display: none;
+    overflow: hidden;
+    background-color: #f5f5f5;
+  }
