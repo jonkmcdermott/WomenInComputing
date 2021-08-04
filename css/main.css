@@ -161,8 +161,8 @@ button.bio_card {
 .session-card {
     background-color: #eee;
     margin-top: .5em;
-    transition: box-shadow .3s;
-    transition: background-color .3s;
+    transition: box-shadow 250ms;
+    transition: background-color 250ms;
     
 }
 .session-card:hover {
@@ -183,18 +183,33 @@ button.bio_card {
     font-size: 1em;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active-card, .collapsible:hover {
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active-card, .collapsible:hover {
     background-color: #ccc;
-  }
+}
   
-  /* Style the collapsible content. Note: hidden by default */
-  .collapsible-content {
+/* Style the collapsible content. Note: hidden by default */
+.collapsible-content {
     padding: .5rem 1rem;
     display: none;
     overflow: hidden;
     background-color: #f5f5f5;
-  }
+}
+
+/* Create hover effect on session card button */
+.session-card button {
+    transition: background-color 500ms ease,
+        color 500ms ease;
+}
+.session-card:hover button {
+    background-color: #00467f;
+    color: #fff;
+}
+
+/* style session card Teams buttons */
+.session-card .btn {
+    padding: .25rem 1.5rem;
+}
 
 
 /* change footer color */
