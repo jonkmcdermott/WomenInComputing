@@ -205,6 +205,15 @@ button.bio_card {
     background-color: #00467f;
     color: #fff;
 }
+.session-card button:focus {
+    outline: none;
+    background-color: #00467f;
+    color: #fff;
+}
+.session-card:focus-within {
+    box-shadow: 0 0 10px rgba(33,33,33,.2);
+    background-color: #ffffff;
+}
 
 /* style session card Teams buttons */
 .session-card .btn {
