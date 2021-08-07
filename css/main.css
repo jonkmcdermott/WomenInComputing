@@ -137,7 +137,37 @@ hr {
     background-color: #e7a614;
 }
 
-
+/* 
+    customize text and typography further 
+*/
+.page-title-heading {
+    font-size: 4rem;
+    line-height: 95%;
+    padding-bottom: 2rem;
+    padding-top: .5rem;
+}
+.section-title-heading {
+    font-size: 2.75rem;
+    line-height: 95%;
+    padding-bottom: .25rem;
+    padding-top: .5rem;
+}
+/* testimonial block is the italics section on a page that needs to have limited character width to be a little more readable */
+/* this can be seen on the event committee page after the title */
+.testimonial-block {
+    font-style: italic;
+    max-width: 48ch;
+    padding: .25rem .5rem;
+    color:rgb(99, 99, 99)
+}
+.blocky-text {
+    line-height: 180%;
+    color: rgb(50, 50, 50);
+}
+.less-blocky-text {
+    line-height: 150%;
+    color: rgb(50, 50, 50);
+}
 
 
 /* change decorative images */
