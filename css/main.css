@@ -170,6 +170,7 @@ hr {
     line-height: 150%;
     color: rgb(50, 50, 50);
 }
+/* remove excess spacing at bottom of speaker links to external pages */
 .speaker-external-link{
     padding-bottom: 0;
     margin-bottom: 0;
@@ -284,6 +285,16 @@ button.bio_card {
     width: 100%;
     max-height: auto;
     margin-top: auto;
+}
+
+
+/* create effects and styling for card accordions for speakers */
+.card-header {
+    background-color:#eee;
+}
+.card-header:hover, 
+.card-header:focus-within {
+    background-color: rgb(255, 255, 255);
 }
 
 
