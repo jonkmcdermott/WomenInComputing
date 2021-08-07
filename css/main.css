@@ -163,10 +163,16 @@ hr {
 .blocky-text {
     line-height: 180%;
     color: rgb(50, 50, 50);
+    padding-bottom: .25rem;
+    padding-top: .5rem;
 }
 .less-blocky-text {
     line-height: 150%;
     color: rgb(50, 50, 50);
+}
+.speaker-external-link{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 
