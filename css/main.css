@@ -1,3 +1,23 @@
+:root {
+    /*
+    --main_gradient: linear-gradient(
+      45deg,
+      #030032 0%,
+      #090979 35%,
+      #00d4ff 100%
+    );
+    */
+
+    --main_gradient: linear-gradient(
+        45deg,
+        #030033 0%,
+        #090979 35%,
+        #00a5ec 75%,
+        #00ffd8 100%
+    );
+}
+
+
 /* change the font family and weight of the navbar */
 nav {
     font-family: 'Ultramagnetic Bold', 'Century Gothic', 'Arial', sans-serif;
@@ -63,8 +83,8 @@ nav > div > .btn:focus {
     background-color: rgba(15, 17, 39, 0.50);
     padding: 1rem 5rem;
     border-radius: 1.5rem;
-    transition: background-color 350ms ease,
-        border-radius 450ms ease;
+    transition: background-color 250ms ease,
+        border-radius 250ms ease;
 }
 #jumbo_fx:hover, jumbo_fx:focus-within {
     background-color: rgba(15, 17, 39, 0.75);
@@ -80,7 +100,29 @@ nav > div > .btn:focus {
 #jumbo_fx > .btn:focus {
     color: white; /* placeholder for hover stuff soon */
 }
-
+/*gradient button in jumbotron for main call to action */
+/*
+.gradient-button {
+    border: 0;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .5em 1.5em;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: white;
+    background-image: var(--main_gradient);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 750ms ease;
+}
+.gradient-button:hover,
+.gradient-button:focus {
+    background-position: right;
+    text-decoration: none;
+    color:white;
+}
+*/
 
 
 /* mini-header for medium viewports and smaller in place of jumbotron */
@@ -108,13 +150,24 @@ nav > div > .btn:focus {
     color:#fff;
     background: #005cb8;
     /* background: radial-gradient(circle, #005cb8 0%, #00467f 100%); */
-    background: radial-gradient(circle, #00467f 0%, #011d41 100%);
+    /* background: radial-gradient(circle, #00467f 0%, #011d41 100%); */
+    background-image: var(--main_gradient);
+    background-size: 400%;
     padding-bottom: 1em;
     padding-top: 1em;
+    animation: top-display-mobile-animation 15s infinite alternate;
     
 }
 div.top_display h1, div.top_display h4 {
     color: #fff;
+}
+@keyframes top-display-mobile-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
 }
 
 
@@ -190,10 +243,10 @@ hr {
 /* styling for the large clickable external logos on the right-most column of the site */
 .clickable-img {
     padding: 0px, 0px;
-    transition: padding 300ms;
+    transition: padding 250ms;
 }
 .clickable-img:hover {
-    padding: 4px 4px;
+    padding: 3px 3px;
 }
 
 
@@ -294,7 +347,7 @@ button.bio_card {
 }
 .card-header:hover, 
 .card-header:focus-within {
-    background-color: rgb(255, 255, 255);
+    background-color: #fafafa;
 }
 
 
