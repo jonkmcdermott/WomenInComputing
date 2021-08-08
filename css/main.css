@@ -10,10 +10,11 @@
 
     --main_gradient: linear-gradient(
         45deg,
-        #030033 0%,
-        #090979 35%,
-        #00a5ec 75%,
-        #00ffd8 100%
+        #011d41 0%,
+        #00467f 38%,
+        #005cb8 65%,
+        #3bb3e5 87%,
+        #27d6f5 100%
     );
 }
 
@@ -155,13 +156,13 @@ nav > div > .btn:focus {
     background-size: 400%;
     padding-bottom: 1em;
     padding-top: 1em;
-    animation: top-display-mobile-animation 15s infinite alternate;
+    animation: top-display-animation 20s infinite alternate;
     
 }
 div.top_display h1, div.top_display h4 {
     color: #fff;
 }
-@keyframes top-display-mobile-animation {
+@keyframes top-display-animation {
     0% {
         background-position: left;
     }
