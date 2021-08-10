@@ -1,5 +1,5 @@
 const todaysDate = new Date();
-const eventDate = new Date("September 10, 2021 8:00:00 GMT-0500"); //Friday's links will open at an hour before the event
+const eventDate = new Date("September 9, 2021 4:45:00 GMT-0500"); //Friday's links will open at an hour before the event
 
 
 if (todaysDate < eventDate) {
