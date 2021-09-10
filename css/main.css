@@ -547,4 +547,6 @@ footer .fa {
 }
 
 
-
+.canceled-session {
+    color: gray;
+}
