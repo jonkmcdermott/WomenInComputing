@@ -34,6 +34,7 @@
                     <li class="nav-item mx-1">
                         <a class="nav-link" href="index.html">About</a>
                     </li>
+                    <!--COMMENTED OUT AGENDA DROPDOWN
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Agenda
@@ -44,6 +45,8 @@
                         <a class="dropdown-item" href="agenda_friday.html">Friday</a>
                       </div>
                     </li>
+                    COMMENTED OUT AGENDA DROPDOWN-->
+                    <!--COMMENTED OUT SPEAKERS DROPDOWN
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Speakers
@@ -54,11 +57,14 @@
                         <a class="dropdown-item" href="employment.html">Employment Panel</a>
                       </div>
                     </li>
+                    COMMENTED OUT SPEAKERS DROPDOWN-->
                     <li class="nav-item mx-1">
                         <a class="nav-link" href="committee.html">Event Committee</a>
                     </li>
                 </ul>
+                <!--REGISTER BUTTON COMMENTED OUT
                 <a id="nav_button" class="btn btn-warning" href="register.html" role="button">Register Now</a>
+                REGISTER BUTTON COMMENTED OUT-->
             </div>
         </nav><!-- End of navbar -->
 
@@ -75,9 +81,9 @@
 
         <!-- Top bar reduced -->
         <div class="d-none d-md-block top_display mb-3">
-          <h1>2021 ACM-W & KYCC</h1>
+          <h1>2023 ACM-W & KYCC</h1>
           <h1 class="display-4">Celebration of Women In Computing</h1>
-          <h4>Embrace Change & Achieve Success</h4>
+          <h4>March 16th & 17th, 2023</h4>
         </div>
         
         <!-- Content container -->
@@ -90,16 +96,21 @@
                     <div class="pt1">
                         <!-- Date info-->
                         <h4>Meeting Date</h4>
-                        <h5>September 9-10, 2021</h5>
+                        <h5>March 16-17, 2023</h5>
                         <p class="less-blocky-text">
+                          More information coming soon!
+                          <!--
                             Virtual meeting sponsored by <a href="https://southcentral.kctcs.edu/" target="_blank"><strong>Southcentral Kentucky Community & Technical College</strong></a> with support
                             from the <a href="https://women.acm.org/" target="_blank"><strong>Association for Computing Machinery</strong></a> as part of this year's 
                             celebration of Women in Computing. This year's theme is <em>Embrace Change & Achieve Success</em>!
+                          -->
                         </p>
+                        <!--
                         <p class="less-blocky-text">
                             Meeting will be held via Microsoft Teams. Follow the link to register now!
                         </p>
                         <p><a id="side_link" href="register.html">Get Registered</a></p>
+                        -->
 
                         <hr>
 
@@ -136,7 +147,7 @@
                               <div class="card-header" id="headingOne">
                                 <h5 class="mb-0">
                                   <button class="bio_card btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Carmen Gaskins, Co-Chair, Professor
+                                    CO-CHAIR: Carmen Gaskins, Professor
                                   </button>
                                 </h5>
                               </div>
@@ -584,7 +595,7 @@
             <!--a type="button" class="btn btn-light btn-sm mt-3" href="#mainPage">
                 to top
             </a-->
-            <p class="m-0"><small>KYCC Women in Computing &copy; 2021</small></p>
+            <p class="m-0"><small>KYCC Women in Computing &copy; <script>document.write(new Date().getFullYear())</script></small></p>
             <p class="m-0"><small>For further information, please contact Carmen Gaskins via email at <a href="mailto:carmen.gaskins@kctcs.edu">carmen.gaskins@kctcs.edu</a></small></p>
             <p class="m-0"><small>Created with love by Southcentral Kentucky Community & Technical College alumnus Jon McDermott</small></p>
             <p class="py-3">
