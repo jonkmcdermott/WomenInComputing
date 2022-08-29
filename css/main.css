@@ -271,6 +271,36 @@ hr {
     image-orientation: none;
 }
 
+.sponsorship-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sponsor-container {
+    padding: .25rem;
+    box-shadow: .25rem .25rem .5rem hsl(0, 0%, 0%, .5);
+    margin: 1rem;
+}
+
+.sponsor {
+    display: grid; 
+    place-content: center;
+    width: min(12rem, 27vw);
+    height: min(12rem, 27vw);
+}
+
+.sponsor-image {
+    max-width: min(10rem, 25vw);
+    max-height: min(10rem, 25vw);
+}
+
+.sponsor-level {
+    /* color: #e7a614;
+    background-color: #00467f;
+    padding: .125rem .25rem; */
+    text-align: center;
+    margin-top: .5rem;
+}
+
 #keynote {
     border-width: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
